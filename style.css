@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+/* font-family: 'Nothing You Could Do', cursive; */
+
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #d8b5a52f;
+    position: relative;
+}
+.container {
+    padding: 10px;
+}
+.navbar , .card {
+    background-color: transparent;
+}
+.logo-coffee img {
+    width: 30px;
+    height: 55px;
+    padding-right: 0;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    color: #442b17c0;
+    font-weight: 900;
+    text-shadow: 0 0 30px #442b17;
+}
+.logo span {
+    color: #442b17;
+}
+
+
+
+.buttons .button:nth-last-of-type(3) span {
+    padding-left: 20px;
+}
+.buttons .button:nth-last-of-type(1) {
+    background-color: #442b17;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+.buttons .button:nth-last-of-type(1):hover {
+    transition: 0.5s;
+    opacity: 0.9;
+    box-shadow: 0 0 8px 2px #442b17;
+}
+.buttons .button:nth-last-of-type(1) strong {
+    font-weight: 600;
+}
+.buttons .button:not(:nth-last-of-type(1)) {
+    border: none;
+    color: #442b17c0;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: transparent;
+}
+.buttons .button:not(:nth-last-of-type(1)):hover {
+    color: #442b17;
+    transition: 0.5s;
+    text-shadow: 0 0 20px #442b17
+}
+
+
+
+/* ul li {
+    display: inline;
+}
+ul {
+    display: flex;
+    align-items: center;
+}
+ul li a.button {
+    background-color: transparent;
+    border: none;
+}
+ul li:nth-of-type(4) span {
+    padding-left: 20px;
+}
+ul li:nth-of-type(6) {
+    background-color: #442b17;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+ul li:nth-of-type(6) a {
+    color: white;
+}
+ul li:nth-of-type(6):hover {
+    transition: 0.5s;
+    opacity: 0.9;
+    box-shadow: 0 0 8px 2px #442b17;
+}
+ul li:nth-of-type(6) strong {
+    font-weight: 600;
+}
+ul li:not(:nth-of-type(6)) {
+    border: none;
+    color: #442b17c0;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+}
+ul li:not(:nth-of-type(6)):hover {
+    color: #442b17;
+    transition: 0.5s;
+    text-shadow: 0 0 20px #442b17
+} */
+
+
+
+.section:nth-of-type(2) .column:nth-of-type(1) .button:nth-of-type(1) {
+    background-color: #d8b5a5;
+    box-shadow: 0 0 15px 1px #c0947f;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.section:nth-of-type(2) .column:nth-of-type(1) .button:nth-of-type(2) {
+    background-color: #58301bec;
+    box-shadow: 0 0 15px 1px #693d25c2;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.section {
+    margin-top: 100px;
+}
+.title {
+    color: #3c2c24;
+}
+.subtitle {
+    color: #804a2a;
+}
+.section:nth-of-type(3) img {
+    width: 160px;
+    height: 60px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.section:nth-of-type(4) .container:nth-of-type(1) p.subtitle::after , 
+.section:nth-of-type(5) .container:nth-of-type(1) p.subtitle::after ,
+.section:nth-of-type(6) .container:nth-of-type(1) p.subtitle::after , 
+.section:nth-of-type(8) .container:nth-of-type(1) h1.title::after ,
+.section:nth-of-type(9) .container:nth-of-type(1) p.subtitle::after 
+{
+    display: block;
+    content: '';
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: rgb(68, 43, 23);
+    background: linear-gradient(90deg, rgba(68, 43, 23, 1) 75%, rgba(248, 241, 238, 1) 75%, rgba(248, 241, 238, 1) 85%, rgba(68, 43, 23, 1) 85%);
+}
+.card img {
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+}
+.card .button {
+    border-radius: 12px;
+}
+
+
+
+
+.section:nth-of-type(4) .container:nth-of-type(2) .column:nth-of-type(1) ,
+.section:nth-of-type(4) .container:nth-of-type(2) .column:nth-of-type(3) {
+    margin-top: 70px;  
+}
+.section:nth-of-type(4) .container:nth-of-type(2) .column:nth-of-type(1) ,
+.section:nth-of-type(4) .container:nth-of-type(2) .column:nth-of-type(2) ,
+.section:nth-of-type(4) .container:nth-of-type(2) .column:nth-of-type(3) ,
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(1) ,
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(2) ,
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(3) {
+    margin-right: 20px ;
+    margin-left: 20px ;
+}
+
+
+.section:nth-of-type(4) .container:nth-of-type(2) .column:nth-of-type(1) .button , 
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(1) .button {
+    color: #480b1c;
+    border: 2px solid #480b1c;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Pacifico', cursive;
+}
+.section:nth-of-type(4) .container:nth-of-type(2) .column:nth-of-type(1) .card:hover .button ,
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(1) .card:hover .button {
+    background-color: #480b1c;
+    color: white;
+    transition: 0.6s;
+}
+.section:nth-of-type(4) .container:nth-of-type(2) .column:nth-of-type(2) .button ,
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(2) .button {
+    color: #984c02;
+    border: 2px solid #984c02;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Pacifico', cursive;
+}
+.section:nth-of-type(4) .container:nth-of-type(2) .column:nth-of-type(2) .card:hover .button ,
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(2) .card:hover .button{
+    background-color: #984c02;
+    color: white;
+    transition: 0.6s;
+}
+.section:nth-of-type(4) .container:nth-of-type(2) .column:nth-of-type(3) .button ,
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(3) .button {
+    color: #664430;
+    border: 2px solid #664430;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Pacifico', cursive;
+}
+.section:nth-of-type(4) .container:nth-of-type(2) .column:nth-of-type(3) .card:hover .button ,
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(3) .card:hover .button {
+    background-color: #664430;
+    color: white;
+    transition: 0.6s;
+}
+.section:nth-of-type(4) .container:nth-of-type(2) .column:nth-of-type(1) .card ,  
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(1) .card {
+    box-shadow: 0 0 1em -0.125em #480b1c83;
+    border-radius: 12px;
+}
+.section:nth-of-type(4) .container:nth-of-type(2) .column:nth-of-type(2) .card ,
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(2) .card {
+    box-shadow: 0 0 1em -0.125em #984d0270;
+    border-radius: 12px;
+}
+.section:nth-of-type(4) .container:nth-of-type(2) .column:nth-of-type(3) .card , 
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(3) .card {
+    box-shadow: 0 0 1em -0.125em #66443094;
+    border-radius: 12px;
+}
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(1) .card {
+    border: 2px solid #480b1c83;
+}
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(2) .card {
+    border: 2px solid #984d0270;
+}
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(3) .card {
+    border: 2px solid #66443094;
+}
+
+
+
+.section:nth-of-type(5) .container:not(:nth-of-type(1)) {
+    margin-top: 150px;
+}
+.section:nth-of-type(5) img {
+    border-radius: 12px;
+}
+.section:nth-of-type(5) .container:nth-of-type(2) .column:nth-of-type(2) ,
+.section:nth-of-type(5) .container:nth-of-type(3) .column:nth-of-type(1) ,
+.section:nth-of-type(5) .container:nth-of-type(4) .column:nth-of-type(2) {
+    position: relative;
+}
+/* .overlay {
+    width: 94.7%;
+    position: absolute;
+    z-index: 2;
+    top: 12px;
+    left: 12px;
+    bottom: 18px;
+    border-radius: 12px;
+    background-color: rgba(59, 59, 59, 0.377);
+} */
+.section:nth-of-type(5) .container:nth-of-type(3) .column:nth-of-type(1) .overlay {
+    width: 89%;
+}
+.section:nth-of-type(6) .column {
+    margin: 10px 23px;
+}
+.section:nth-of-type(6) .container:nth-of-type(2) {
+    margin-top: 100px;
+}
+.section:nth-of-type(6) .container:nth-of-type(2) img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px #480b1c;
+}
+.section:nth-of-type(6) .container:nth-of-type(2) img:hover {
+    transform: translateY(-10px);
+    transition: 0.6s;
+}
+
+
+
+.section:nth-of-type(7) {
+    position: relative;
+    background-image: url('https://images.adsttc.com/media/images/53fd/78c4/c07a/8038/8e00/096d/large_jpg/penda_HOME_Cafe_Photo_(30).jpg?1409120419');
+    /* height: 100%; */
+    background-position: center;
+    background-size: cover;
+}
+.section:nth-of-type(7) .overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(59, 59, 59, 0.486);
+}
+.section:nth-of-type(7) .container:nth-of-type(2) {
+    margin-top: 60px;
+}
+.section:nth-of-type(7) .container:nth-of-type(2) .title  {
+    text-shadow:  0 0 30px #ffffff85;
+    color: #301102;
+}
+.section:nth-of-type(7) .container:nth-of-type(2) .subtitle {
+    text-shadow:  0 0 10px #ffffff85;
+    color: rgb(107, 52, 30);
+    font-weight: 600;
+}
+.section:nth-of-type(7) .container:not(:nth-of-type(1)) {
+    position: relative;
+    z-index: 2;
+}
+.section:nth-of-type(7) .container:nth-of-type(3) .column {
+    background-color: #fff8f4ea;
+    border-radius: 12px;
+    box-shadow: 0 0 20px 4px #984d0270;
+}
+.section:nth-of-type(7) .container:nth-of-type(3) .column i {
+    text-shadow:  0 0 10px #6d3701bd;
+    font-size: 20px;
+}
+.section:nth-of-type(7) .container:nth-of-type(3) .column:hover , 
+.section:nth-of-type(4) .container:nth-of-type(2) .column:hover {
+    transform: translateY(-50px);
+    transition: 0.6s;
+}
+.section:nth-of-type(7) .container:nth-of-type(3) img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 3px #6d3701a9;
+}
+.name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3c2c24;
+    text-shadow:  0 0 10px #6d3701bd;
+}
+
+
+
+.section:nth-of-type(8) .container:nth-of-type(2) .column img {
+    border-radius: 24px;
+}
+.section:nth-of-type(8) .container:nth-of-type(2) .column .title {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+}
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(1) .button ,
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(2) .button ,
+.section:nth-of-type(8) .container:nth-of-type(2) .column:nth-of-type(3) .button {
+    font-weight: 300;
+}
+
+
+
+.section:nth-of-type(9) .container:nth-of-type(2) .columns:nth-of-type(1) .column input,
+.section:nth-of-type(9) .container:nth-of-type(2) .columns:nth-of-type(2) .column input {
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    border: 2px solid #572231;
+    box-shadow: 0 0 1em -0.125em #480b1c83;
+}
+.section:nth-of-type(9) .container:nth-of-type(2) .columns:nth-of-type(3) textarea {
+    width: 100%;
+    margin-top: 12px;
+    border-radius: 12px;
+    border: 2px solid #572231;
+    box-shadow: 0 0 1em -0.125em #480b1c83;
+    resize: none;
+}
+.section:nth-of-type(9) .container:nth-of-type(2) .columns:nth-of-type(4) .button {
+    border-radius: 12px;
+    background-color:  #572231;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0 43px;
+    box-shadow: 0 0 1em -0.125em #480b1c83;
+    font-family: 'Nothing You Could Do', cursive;
+}
+input::placeholder , textarea {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 18px;
+    color: #301102;
+    font-weight: 600;
+}
+
+
+
+.section:nth-of-type(10) {
+    background-color: #9b673d;
+}
+.section:nth-of-type(10) .subtitle {
+    color: #fff;
+}
+.section:nth-of-type(10) i {
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+.section:nth-of-type(10) .column:nth-of-type(1) .navbar-brand {
+    margin-top: 16%;
+}
+.section:nth-of-type(10) .column:nth-of-type(1) .navbar-brand .logo {
+    font-size: 65px;
+}
+.section:nth-of-type(10) .column:nth-of-type(1) .navbar-brand .logo-coffee img{
+    width: 55px;
+    height: 90px;
+}
+.section:nth-of-type(10) .navbar-brand {
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+
+
+.back-to-top {
+    width: 50px;
+    height: 50px;
+    background-color: #442b17;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.back-to-top i {
+    color: white;
+    font-size: 35px;
+}
+
